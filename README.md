@@ -23,5 +23,5 @@ This website will contain further details about the IMAP project:
 - To debug use `sudo -u www-data bin/instance fg`
 
 #### To automate restarting of services after reboot:
- Install cron job (using `crontab -e`). Then add `@reboot sleep 10; cd /opt/imap/; sudo -u www-data bin/instance start`.
+ Install cron job (using `crontab -e`): `@reboot sleep 10; cd /opt/imap/; sudo -u www-data bin/instance start`.
 (Note that this job will start 10 seconds after reboot)
