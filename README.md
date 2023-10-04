@@ -9,7 +9,7 @@ This website will contain further details about the IMAP project:
 * Development of test lists
 * The IMAP team and partners
 
-  ## Installation and Buildout
+## Installation and Buildout
 
 ### Ubuntu 22.04.2 LTS
 
